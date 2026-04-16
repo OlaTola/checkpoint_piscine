@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Print(piscine.PrintIfNot("abcdefz"))
-	fmt.Print(piscine.PrintIfNot("abc"))
-	fmt.Print(piscine.PrintIfNot(""))
-	fmt.Print(piscine.PrintIfNot("14"))
+	fmt.Println(piscine.RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
+	fmt.Println(piscine.RetainFirstHalf("A"))
+	fmt.Println(piscine.RetainFirstHalf(""))
+	fmt.Println(piscine.RetainFirstHalf("Hello World"))
 }
