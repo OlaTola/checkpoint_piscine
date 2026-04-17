@@ -6,5 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.SumOfPrime(10))
+	fmt.Println(piscine.HashCode("A"))
+	fmt.Println(piscine.HashCode("AB"))
+	fmt.Println(piscine.HashCode("BAC"))
+	fmt.Println(piscine.HashCode("Hello World"))
 }
